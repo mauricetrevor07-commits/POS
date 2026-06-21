@@ -177,4 +177,4 @@ if not DEBUG:
     X_FRAME_OPTIONS = 'DENY'
 
 # Static files configuration for production
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
